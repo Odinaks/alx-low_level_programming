@@ -4,23 +4,23 @@
 
 #include <stdio.h>
 
+
+
 /**
  *
- *  * main - main block
+ *  * main - Entry point
  *
- *   * Description: Get a random number and print the number
+ *   *
  *
- *    * and if it is positive, negative, or zero
+ *    * Return: Always 0 (Success)
  *
- *     * Return: 0
- *
- *      */
+ *     */
 
 int main(void)
 
 {
 
-		int n;
+		int n, l;
 
 
 
@@ -28,20 +28,26 @@ int main(void)
 
 				n = rand() - RAND_MAX / 2;
 
-					if (n > 0)
-
-								printf("%i is positive\n", n);
-
-						else if (n < 0)
-
-									printf("%i is negative\n", n);
-
-							else
-
-										printf("%i is zero\n", n);
 
 
 
-								return (0);
+
+					l = n % 10;
+
+						if (l > 5)
+
+									printf("Last digit of %d is %d and is greater than 5\n", n, l);
+
+							else if (l == 0)
+
+										printf("Last digit of %d is %d and is 0\n", n, l);
+
+								else
+
+											printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
+
+
+
+									return (0);
 
 }
