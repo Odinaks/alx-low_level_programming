@@ -1,11 +1,12 @@
 #include "main.h"
+#include "_putchar.c"
 /**
  * main - entry point
  * Decription: program that prints _putchar,
  * followed by a new line.
  * Return: 0;
  */
-int _putchar(char c)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
