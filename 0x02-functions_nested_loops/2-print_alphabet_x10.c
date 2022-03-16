@@ -3,8 +3,8 @@
  * print_alphabet_10x - prints alphabets 10 times
  * Description: Function that prints ten times the alphabet
  * followed by a new line
- * Return: void;
  */
+
 void print_alphabet_x10(void)
 {
 	int i, j;
