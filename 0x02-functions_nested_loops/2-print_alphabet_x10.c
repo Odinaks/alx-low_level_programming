@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet_10x - function
- * Description: function that prints ten times the alphabet,
- * followed by a new line.
+ * print_alphabet_10x - A function that prints alphabets
+ * Description: Function that prints ten times the alphabet
+ * followed by a new line
  */
 void print_alphabet_x10(void)
 {
