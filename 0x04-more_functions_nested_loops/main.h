@@ -17,4 +17,4 @@ void print_alphabet_x10(void);
 int print_sign(int n);
 int print_last_digit(int);
 void times_table(void);
-int _putchar(char);
+int _putchar(char c);
