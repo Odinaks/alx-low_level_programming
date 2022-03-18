@@ -2,17 +2,10 @@
 
 /**
  * more_numbers - a function that prints 10 times
-<<<<<<< HEAD
  * the numbers, from 0 to 14, followed by a new line.
  */
 
 void more_numbers(void)
-=======
- *  the numbers, from 0 to 14, followed by a new line.
- */
-
-void more_numbers(void);
->>>>>>> a245d5ed9cdae16194ab8eedb4cb5ed1a270a42c
 {
 	int i, j;
 	char c;
@@ -33,7 +26,4 @@ void more_numbers(void);
 		_putchar('\n');
 	}
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> a245d5ed9cdae16194ab8eedb4cb5ed1a270a42c
