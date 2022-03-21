@@ -6,11 +6,12 @@
  * @n: length of the line
  */
 
-void print_line(int n);
+void print_line(int n)
 {
 	while (n > 0)
 	{
-		putchar('_');
+		_putchar('_');
 		n--;
 	}
+	_putchar('\n');
 }

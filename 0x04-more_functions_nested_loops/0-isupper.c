@@ -1,6 +1,6 @@
 /**
- * _isupper - function that checks for uppercase charaters
- * @c: character to check
+ * _isupper - a function that checks for uppercase character.
+ * @c: the character to check
  * Return: 1 for uppercase characters, 0 otherwise
  */
 
