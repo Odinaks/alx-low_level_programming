@@ -6,7 +6,7 @@
  * two strings.
  * @s1: string 1
  * @s2: string 2
- * @n: numbwr of bytes to copy
+ * @n: number of bytes to copy
  *
  * Return: Pointer to concatenated string
  */
