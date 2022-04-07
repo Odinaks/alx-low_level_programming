@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 /**
- * array_range - a function that creates an array
+ * *array_range - a function that creates an array
  * of integers from min to max.
  * @min: start point
  * @max: end point
@@ -18,6 +18,8 @@ int *array_range(int min, int max)
 		return (NULL);
 	len = max - min + 1;
 	array = malloc(sizeof(int) * len);
+	if (array == NULL)
+		return (NULL);
 	for (i = 0; i < len; i++)
 		array[i] = min + i;
 	return (array);
