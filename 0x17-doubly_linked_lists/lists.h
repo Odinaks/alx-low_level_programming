@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef __LIST_H__
+#define __LIST_H__
 
 #include <stdlib.h>
 
